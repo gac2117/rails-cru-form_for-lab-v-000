@@ -3,5 +3,11 @@
   <%= f.label 'Song Name' %><br>
   <%= f.text_field :name %><br>
 
+  <%= f.label 'Artist ID' %><br>
+  <%= f.number_field :artist_id %><br>
+
+  <%= f.label 'Genre ID' %><br>
+  <%= f.number_field :genre_id %><br>
+
   <%= f.submit "Create Song" %>
 <% end %>
